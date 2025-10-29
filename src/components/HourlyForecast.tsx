@@ -57,7 +57,7 @@ export default function HourlyForecast({
           )}
         </div>
       </div>
-      <div className="flex flex-col gap-4 max-h-[580px] px-4 overflow-scroll">
+      <div className="flex flex-col gap-4 max-h-[580px] px-4 overflow-y-scroll custom-scrollbar">
         {isLoading
           ? Array.from({ length: 24 }).map((_, i) => (
               <div
