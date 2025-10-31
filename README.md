@@ -1,73 +1,45 @@
-# React + TypeScript + Vite
+# 📂 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero Image](https://res.cloudinary.com/dz209s6jk/image/upload/Challenges/go73d9rjvzc8fsw13hy8.jpg)
 
-Currently, two official plugins are available:
+## 🌟 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build a responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API.
 
-## React Compiler
+## 🏆 Challenge
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49)
 
-## Expanding the ESLint configuration
+## 💡 Solution
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[Solution Link](https://www.frontendmentor.io/solutions/weather-app-NCN2eQG7kb)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Live Demo
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+[View Demo](https://younes-alhyan.github.io/weather-app/)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔎 More
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+[GitHub Repository](https://github.com/younes-alhyan/frontend-mentor/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![API](https://img.shields.io/badge/API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![REACT](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TS](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## 🔥 Difficulty
+
+![INTERMEDIATE](https://img.shields.io/badge/Difficulty-INTERMEDIATE-yellow)
+
+## 🏅 Level
+
+![gold star](https://younes-alhyan.github.io/frontend-mentor/assets/star-filled.svg)
+![gold star](https://younes-alhyan.github.io/frontend-mentor/assets/star-filled.svg)
+![gold star](https://younes-alhyan.github.io/frontend-mentor/assets/star-filled.svg)
+![empty star](https://younes-alhyan.github.io/frontend-mentor/assets/star-outline.svg)
+![empty star](https://younes-alhyan.github.io/frontend-mentor/assets/star-outline.svg)
